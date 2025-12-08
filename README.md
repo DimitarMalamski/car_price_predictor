@@ -8,6 +8,7 @@ This notebook is intentionally designed as a foundational starting point and doe
 
 ## 📚 Preparation
 Please ensure that you are familiar with the following aspects in order to successfully work with this repo and notebook.
+ - You know the basics of sci-kit learn ()
  - You know how to load data from and [work with ARFF files](https://www.geeksforgeeks.org/pandas/reading-an-arff-file-to-pandas-dataframe/)
  - You know the basic structure of a [linear regression](https://scikit-learn.org/stable/modules/linear_model.html) project
  - You understand the reasons for making [train, validate and test](https://en.wikipedia.org/wiki/Training%2C_validation%2C_and_test_data_sets) datasets
@@ -25,9 +26,6 @@ This notebook is an example on how to get started, it is open for improvements a
 - A visualization of the errors at the end would be interesting
 - Calculating the R² and the RMSE of this model would help judging the model's performance. What do their values mean in relation to the case? 
 - Regression models can be sensitive to the data being distributed normally. Is it in this project? If not, what can we do?
-
-## ♻️ A different context
-Make a copy or clone of this repo, and change the code that loads the ARFF file so that loads one of your own CSV files with completely different data in it. Preferably not about predicting the price of something. Make sure the target variable, that which needs to be predicted by the model, is in the last column of the CSV file, and is a continuous variable. Then, fix the notebook so that it works again. You do not need to make the model predict outcomes well (you can do that later if you want), just make the notebook run on your data first, so you can evaluate the outcomes.
 
 ## ⭐ Citation & Star
 If you use my work please cite and star ⭐ this repo. Thanks!
